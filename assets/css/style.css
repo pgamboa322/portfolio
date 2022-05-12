@@ -1,0 +1,8 @@
+:root {
+    background: rgb(52, 73, 94);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
