@@ -1,19 +1,14 @@
-# portfolio
+# Portfolio
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+This is my portfolio. The content will cover a brief overview of my projects as a developer, an about me section, and ways to get in touch. To navigate to each of these sections the user will click and be brought down to the right section. The portfolio is responsive  so the user can navigate on their preferred device. This portfolio uses HTML and CSS to function. As a user and developer I will continue to optimize this site as I learn. 
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+## Screenshots
+
+![This image shows the header, navigation, banner.](./assets/images/screenshot1.png)
+
+![This image shows the work section.](./assets/images/screenshot2.png)
+
+## Links
+Deployed link: https://pgamboa322.github.io/portfolio/
+
+Github link: https://github.com/pgamboa322/portfolio
