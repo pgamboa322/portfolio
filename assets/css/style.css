@@ -19,6 +19,15 @@ body {
     color: ivory;
 }
 
+hr {
+    height: 1px;
+    background-color: ivory;
+    border: none;
+    padding: .15em 0;
+    width: 28%;
+    margin: auto
+    } 
+
 /* main header section */
 header {
     background-color:lightslategrey;
@@ -76,7 +85,6 @@ header nav li a {
   }
 
    /* topnav section responsiveness*/
-  
    .topnav {
     overflow: hidden;
   }
@@ -123,11 +131,10 @@ header nav li a {
   }
 
 .bio-pic {
-    /* width: 10%;
-    height: 5%; */
-    max-width: 250px;
+    max-width: 200px;
     justify-content: left;
-    margin: 30px 30px;
+    padding-top: 30px;
+    margin: 10px 10px;
     display: flex;
     flex-flow: column;
     border-radius: 25px;
@@ -138,6 +145,7 @@ header nav li a {
 .about-me p {
     text-align: center;
     margin: 0 auto;
+    margin-top: 40px;
     margin-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px;
@@ -160,7 +168,7 @@ header nav li a {
 .card img {
     width: 100%;
     min-width: 400px;
-    max-height: 225px;
+    height: 225px;
     border-radius: 25px;
     margin-top: 10px;
 }
@@ -215,9 +223,6 @@ main {
     flex-wrap: wrap;
     } 
 
-/* .article {
-    float: right;
-    } */
 
 /* resume section */
 .resume p {
@@ -228,10 +233,12 @@ main {
     margin-right: 100px;
     font-size: 20px;
   }
-/* contact me section */
+/* footer & contact me section */
 .contact ul {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: space-evenly;
 }
 .contact ul li {
     display: inline-block;
@@ -242,30 +249,22 @@ main {
     padding: 10px 15px;
 }
 
-/* footer section */
-/* footer {
-    background-color:lightslategrey;
-    height: 50px;
-    width: 100%;
-    display: flex;
-} */
-
-.footer {
-    text-align: center;
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
-
-footer h3 {
+.contact ul li a {
     color: ivory;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 40px 30px 40px 30px;
+    margin: 0 15px;
+    text-align: center;
+    display: flex;
+    /* justify-content: space-between; */
 }
 
 .footer {
+    height: 50px;
+    width: 100%;
     text-align: center;
+    /* display: flex; */
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -273,20 +272,6 @@ footer h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
   }
-  .footer p a {
-    color: rgb(220, 113, 55);
-  }
-
-
-OUTTTTTT
-hr {
-    height: 1px;
-    background-color: #024e76;
-    border: none;
-    padding: .15em 0;
-    width: 28%;
-    margin: auto
-    } 
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
